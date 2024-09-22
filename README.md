@@ -31,11 +31,11 @@
     npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ```
 
-    - É uma boa prática criar um arquivo .txt pra colocar o comando:
+- É uma boa prática criar um arquivo .txt pra colocar o comando:
 
-    ```bash
-    npx tailwindcss -i ./src/input.css -o ./build/assets/css/app.css --whatch
-    ```
+```bash
+npx tailwindcss -i ./src/input.css -o ./build/assets/css/app.css --whatch
+```
 
 ## Passo final
 
