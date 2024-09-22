@@ -4,7 +4,11 @@ module.exports = {
     './build/*.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'minha-cor':'#abc123'
+      }
+    },
   },
   plugins: [],
 }

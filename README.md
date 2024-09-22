@@ -23,11 +23,21 @@
 6. No input.css:
     - Deve-se colocar de padrão isso: @tailwind base; @tailwind components; @tailwind utilities;
 
-### Criando o autput
+## Criando o autput
 
 1. Digite no terminal: 
 
 ```bash
     npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ```
+
+    - É uma boa prática criar um arquivo .txt pra colocar o comando:
+
+    ```bash
+    npx tailwindcss -i ./src/input.css -o ./build/assets/css/app.css --whatch
+    ```
+
+## Passo final
+
+- Por fim, coloque o link para o css de saída no seu arquivo html 
     
