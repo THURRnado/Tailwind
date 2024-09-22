@@ -34,7 +34,7 @@
 - É uma boa prática criar um arquivo .txt pra colocar o comando:
 
 ```bash
-npx tailwindcss -i ./src/input.css -o ./build/assets/css/app.css --whatch
+npx tailwindcss -i ./src/input.css -o ./build/assets/css/app.css --watch
 ```
 
 ## Passo final
