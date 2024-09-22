@@ -16,12 +16,12 @@
 ```
 
 4. São boas práticas criar duas pastas: 
-    4.1. **src** ond se coloca o input.css
-    4.2. **build** onde ficará o index.html
+    - **src** ond se coloca o input.css
+    - **build** onde ficará o index.html
 5. No arquivo **tailwind.config.js** faça:
-    5.1. Em content deve-se colocar: './build/*.html'
+    - Em content deve-se colocar: './build/*.html'
 6. No input.css:
-    6.1. Deve-se colocar de padrão isso: @tailwind base; @tailwind components; @tailwind utilities;
+    - Deve-se colocar de padrão isso: @tailwind base; @tailwind components; @tailwind utilities;
 
 ### Criando o autput
 
